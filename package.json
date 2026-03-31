@@ -1,0 +1,15 @@
+{
+  "name": "genlayer-prediction-market",
+  "version": "1.0.0",
+  "description": "AI-Verified Prediction Market on GenLayer",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "genlayer-js": "latest"
+  }
+}
